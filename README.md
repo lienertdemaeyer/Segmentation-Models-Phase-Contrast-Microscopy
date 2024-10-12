@@ -51,7 +51,7 @@ Segmentation-Models-Phase-Contrast-Microscopy/
 
 In the image below, the output from the segmentation models is presented. 
 
-![Transformer Binaries 250 res]([Transformer Binaries 250 res.png](https://github.com/lienertdemaeyer/Segmentation-Models-Phase-Contrast-Microscopy/blob/d6898f51200b466ec9a2dfddde6b3537a4de72b1/Transformer%20Binaries%20250%20res.png))
+![image](https://github.com/lienertdemaeyer/Segmentation-Models-Phase-Contrast-Microscopy/blob/d6898f51200b466ec9a2dfddde6b3537a4de72b1/Transformer%20Binaries%20250%20res.png))
 
 ![image](https://github.com/user-attachments/assets/83d09687-2790-4d9f-b42a-43c3cc5e01b1)
 
