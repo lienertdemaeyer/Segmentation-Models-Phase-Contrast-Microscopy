@@ -31,27 +31,24 @@ $$
 
 ```bash
 Segmentation-Models-Phase-Contrast-Microscopy/
-├── Attention-U-Net/
-│   ├── model/
-│   ├── weights/
-│   ├── Attention-U-Net.ipynb
-│   └── README.md
-├── Mask-R-CNN/
-│   ├── model/
-│   ├── weights/
-│   └── Mask-R-CNN.ipynb
-├── Segformer/
-│   ├── model/
-│   ├── weights/
-│   └── Segformer.ipynb
-├── Swin-U-Net/
-│   ├── model/
-│   ├── weights/
-│   └── Swin-U-Net.ipynb
-└── TransResUnet/
-    ├── model/
-    ├── weights/
-    └── TransResUnet.ipynb
+├── Convolution/
+│   ├── Attention-U-Net/
+│   │   ├── Attention-U-Net.ipynb
+│   │   └── requirements.txt
+│   ├── Mask-R-CNN/
+│   │   ├── Mask-R-CNN.ipynb
+│   │   └── requirements.txt
+├── Transformer/
+│   ├── Segformer/
+│   │   ├── Segformer-training.py
+│   │   └── requirements.txt
+│   ├── Swin-U-Net/
+│   │   ├── swin-unet-inference.ipynb
+│   │   ├── swin-unet-training.ipynb
+│   │   └── requirements.txt
+│   └── TransResUnet/
+│       ├── Transresunet-training.ipynb
+│       └── requirements.txt
 ```
 ## Output of Segmentation Models
 
