@@ -4,6 +4,12 @@ This repository contains 5 deep learning models for image segmentation, trained 
 
 ## Models and Performance
 
+The following table gives the average precision calculated as:
+
+$$
+\text{Average Precision}(t) = \frac{TP(t)}{TP(t) + FP(t) + FN(t)}
+$$
+
 | Threshold | Mask R-CNN (40 epochs) | Attention U-Net (Focal Loss) | MIT-B0 | MIT-B3 | MIT-B5 | Swin U-Net (no transforms) | TransResUnet (raw) | TransResUnet (Finetuned - 1967 samples) |
 | --------- | ---------------------- | ---------------------------- | ------ | ------ | ------ | -------------------------- | ------------------ | --------------------------------------- |
 | **0.5**   | 0.8230                 | 0.8425                       | 0.5313 | 0.5623 | 0.5739 | 0.4051                     | 0.6563            | 0.7245                                 |
