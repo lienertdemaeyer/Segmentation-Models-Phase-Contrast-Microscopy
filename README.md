@@ -51,9 +51,7 @@ Segmentation-Models-Phase-Contrast-Microscopy/
 
 In the image below, the output from the segmentation models is presented. 
 
-<div style="background-color: lightblue; padding: 10px; border-radius: 8px;">
-  <img src="https://github.com/lienertdemaeyer/Segmentation-Models-Phase-Contrast-Microscopy/blob/d6898f51200b466ec9a2dfddde6b3537a4de72b1/Transformer%20Binaries%20250%20res.png" alt="Segmentation Outputs" width="600px">
-</div>
+![image](https://github.com/lienertdemaeyer/Segmentation-Models-Phase-Contrast-Microscopy/blob/d6898f51200b466ec9a2dfddde6b3537a4de72b1/Transformer%20Binaries%20250%20res.png)
 
 > **Figure:** A visual comparison of the output from different convolutional and transformer-based models. The models are tasked with segmenting cellular structures in microscopy images. This comparison allows for a detailed assessment of how each model performs in complex areas where cell clumps and edges are hard to define.
 
