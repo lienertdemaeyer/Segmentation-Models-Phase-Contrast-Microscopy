@@ -1,0 +1,12 @@
+torch==2.0.1
+torchvision==0.15.2
+albumentations==0.4.6
+torchmetrics==0.11.0
+opencv-python-headless==4.5.3.56
+pandas==1.5.0
+seaborn==0.11.2
+Pillow==9.1.0
+scikit-image==0.19.2
+scikit-learn==1.0.2
+matplotlib==3.5.1
+tqdm==4.64.0
