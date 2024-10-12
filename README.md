@@ -49,6 +49,8 @@ Segmentation-Models-Phase-Contrast-Microscopy/
 
 ## Output of Segmentation Models
 
+![pr_curve](https://github.com/user-attachments/assets/59306768-a217-4d30-98f8-23a46cda35f8)
+
 In the image below, the output from the segmentation models is presented. 
 
 ![Transformer Binaries 250 res](https://github.com/user-attachments/assets/df2f0cd1-504b-4d28-b375-7ebcf6efc5d2)
