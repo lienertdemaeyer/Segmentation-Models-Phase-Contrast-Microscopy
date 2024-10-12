@@ -46,7 +46,7 @@ Segmentation-Models-Phase-Contrast-Microscopy/
     ├── model/
     ├── weights/
     └── TransResUnet.ipynb
-
+```
 ## Output of Segmentation Models
 
 In the image below, the output from the segmentation models is presented. 
