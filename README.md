@@ -2,6 +2,12 @@
 
 This repository contains 5 deep learning models for image segmentation, trained on 480 binary annotation images from the [OSF phase-contrast microscopy dataset](https://osf.io/ysaq2/). The models include Attention U-Net, Mask R-CNN, Segformer, Swin U-Net, and TransResUnet. Each model comes with pre-trained weights and a complete pipeline for data augmentation, training, validation, and inference.
 
+## Model Weights
+
+You can download the pre-trained model weights from the following link:
+
+[Download Attention U-Net Weights](https://drive.google.com/file/d/1q8WCUHH4eacYOA6hL5idAbW-xNk4XjcR/view?usp=drive_link)
+
 ## Models and Performance
 
 The following table gives the average precision calculated as:
