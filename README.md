@@ -46,3 +46,24 @@ Segmentation-Models-Phase-Contrast-Microscopy/
     ├── model/
     ├── weights/
     └── TransResUnet.ipynb
+
+## Output of Segmentation Models
+
+In the image below, we present the output from various segmentation models including Attention U-Net and Mask R-CNN. These models have been evaluated on the same dataset to highlight their strengths and limitations in handling small objects, delineating borders, and identifying complex shapes within cells.
+
+<!-- If using a custom background or border for the image, update the link below -->
+![Transformer Binaries 250 res](https://github.com/user-attachments/assets/df2f0cd1-504b-4d28-b375-7ebcf6efc5d2)
+
+> **Figure:** A visual comparison of the output from different convolutional and transformer-based models. The models are tasked with segmenting cellular structures in microscopy images. This comparison allows for a detailed assessment of how each model performs in complex areas where cell clumps and edges are hard to define.
+
+---
+
+### Summary of Visual Analysis
+
+- **Attention U-Net**: Performs well in detecting distinct shapes and small objects with minimal noise. However, in densely packed areas, it sometimes merges adjacent cells into larger blobs.
+- **Mask R-CNN**: Has issues in accurately delineating borders between clumped cells. It tends to produce broader and less precise boundaries.
+- **Swin U-Net**: Capable of identifying smaller objects effectively but struggles with smooth border delineation, resulting in noisier output.
+- **Segformer MiT-B0 & B3**: Show enhanced refinement at cell borders but still have difficulties with highly detailed regions, especially in denser areas.
+
+---
+
