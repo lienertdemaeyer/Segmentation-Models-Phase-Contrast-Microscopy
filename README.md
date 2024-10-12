@@ -38,17 +38,17 @@ Segmentation-Models-Phase-Contrast-Microscopy/
 │   ├── Mask-R-CNN/
 │   │   ├── Mask-R-CNN.ipynb
 │   │   └── requirements.txt
-├── Transformer/
-│   ├── Segformer/
-│   │   ├── Segformer-training.py
-│   │   └── requirements.txt
-│   ├── Swin-U-Net/
-│   │   ├── swin-unet-inference.ipynb
-│   │   ├── swin-unet-training.ipynb
-│   │   └── requirements.txt
-│   └── TransResUnet/
-│       ├── Transresunet-training.ipynb
-│       └── requirements.txt
+└── Transformer/
+    ├── Segformer/
+    │   ├── Segformer-training.py
+    │   └── requirements.txt
+    ├── Swin-U-Net/
+    │   ├── swin-unet-inference.ipynb
+    │   ├── swin-unet-training.ipynb
+    │   └── requirements.txt
+    └── TransResUnet/
+        ├── Transresunet-training.ipynb
+        └── requirements.txt
 ```
 ## Output of Segmentation Models
 
