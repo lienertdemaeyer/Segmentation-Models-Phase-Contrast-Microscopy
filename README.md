@@ -70,6 +70,26 @@ In the image below, the output from the segmentation models is presented.
 - **Mask R-CNN**: Has issues in accurately delineating borders between clumped cells. It tends to produce broader and less precise boundaries.
 - **Swin U-Net**: Capable of identifying smaller objects effectively but struggles with smooth border delineation, resulting in noisier output.
 - **Segformer MiT-B0 & B3**: Show enhanced refinement at cell borders but still have difficulties with highly detailed regions, especially in denser areas.
+---
+
+### Out-of-training Distribution Inference
+
+In following figure, five out-of-training distribution images were gathered from datasets to assess generalizability. 
+
+![Dataset01](https://github.com/user-attachments/assets/80b12531-d0fe-4383-bd98-6a09ea52ea56)
+
+> **Figure:** Comparison of binary output masks from Attention U-Net and TransResUNet-F with outof-
+training distribution data for different densities in Dataset 01 - 090303. The left column
+shows the original images, the middle column shows the output of Attention U-Net, and
+the right column shows the output o1f 0T3ransResUNet-F.
+
+### Summary of Out-of-training Distribution Inference
+
+- **Generalization**: Both Attention U-Net and TransResUnet-F were evaluated on out-of-training distribution data.
+- **Segmentation Quality**: TransResUnet-F showed superior performance, especially in segmenting closely interconnected and overlapping cells, while Attention U-Net had difficulties, often introducing holes in the segmentation.
+- **Cell Density Representation**: TransResUnet-F captured cell density more accurately, including rounded cell bodies that were missed by Attention U-Net.
+- **Structural Fidelity**: TransResUnet-F better preserved the structure in densely packed regions, showing higher inter-connectivity between cells compared to the smoother, less accurate output from Attention U-Net.
+- **Noise and Artifacts**: Attention U-Net struggled with border detection and introduced noise, particularly in oval-shaped clusters, which were better handled by TransResUnet-F.
 
 ---
 
