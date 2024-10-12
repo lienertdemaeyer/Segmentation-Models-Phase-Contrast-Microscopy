@@ -6,7 +6,7 @@ This repository contains 5 deep learning models for image segmentation, trained 
 
 You can download the pre-trained model weights from the following link:
 
-[Download Attention U-Net Weights](https://drive.google.com/file/d/1q8WCUHH4eacYOA6hL5idAbW-xNk4XjcR/view?usp=drive_link)
+[Download Model Weights](https://drive.google.com/file/d/1q8WCUHH4eacYOA6hL5idAbW-xNk4XjcR/view?usp=drive_link)
 
 ## Models and Performance
 
